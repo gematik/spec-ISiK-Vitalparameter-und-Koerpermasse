@@ -1,32 +1,15 @@
 Profile: ISiKKoerpergewicht
 Parent: VitalSignDE_Koerpergewicht
 Id: ISiKKoerpergewicht
-* insert Meta
-* status MS
-* category MS
-* category[VSCat] MS
+* insert ISiKVitalsignCommons
+* insert Quantity-MS
+* insert Observation-category-VSCat-MS
 * code MS
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
   * coding[snomed] MS
   * coding[snomed] from ISiKKoerpergewichtSCTVS
   * coding[IEEE11073] = $IEEE11073#188736
-* subject MS
-* encounter MS
-* effective[x] MS
-* value[x] MS
-* valueQuantity MS
-* valueQuantity.value MS
-* valueQuantity.unit MS
-* valueQuantity.system MS
-* valueQuantity.code MS
-* performer MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* dataAbsentReason MS
 
 ValueSet: ISiKKoerpergewichtSCTVS
 Id: ISiKKoerpergewichtSCTVS

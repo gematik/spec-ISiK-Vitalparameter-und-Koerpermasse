@@ -19,17 +19,20 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
+        "comment": "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
         "mustSupport": true
       },
       {
         "id": "Observation.category",
         "path": "Observation.category",
+        "comment": "Motivation: Dieses Feld erlaubt die Sortierung und Abfrage anhand von der Kategorie der Untersuchung",
         "mustSupport": true
       },
       {
         "id": "Observation.category:VSCat",
         "path": "Observation.category",
         "sliceName": "VSCat",
+        "comment": "Motivation: Die Kategorie 'vital-signs' dient der Kategorisierung von Vitalparametern",
         "mustSupport": true
       },
       {
@@ -67,16 +70,19 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "comment": "Motivation: Eine Untersuchung benötigt immer einen Patientenbezug",
         "mustSupport": true
       },
       {
         "id": "Observation.encounter",
         "path": "Observation.encounter",
+        "comment": "Motivation: Der Behandlungskontext ist für die Interpretation der Untersuchungsergebnisse relevant",
         "mustSupport": true
       },
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "comment": "Motivation: Das Datum und die Uhrzeit der Untersuchung sind für die Interpretation der Untersuchungsergebnisse relevant",
         "mustSupport": true
       },
       {
@@ -88,31 +94,37 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "comment": "Motivation: valueQuantity muss für VitalSigns unterstützt werden",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].value",
         "path": "Observation.value[x].value",
+        "comment": "Motivation: Eine Quantity soll einen Wert enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
+        "comment": "Motivation: Eine Quantity soll eine Einheit enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].system",
         "path": "Observation.value[x].system",
+        "comment": "Motivation: Eine Quantity soll ein System mit dem die Einheit kodiert wird enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
+        "comment": "Motivation: Eine Quantity soll einen Code der die Einheit kodiert enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
+        "comment": "Motivation: Dieses Feld erlaubt die Angabe von Gründen für fehlende Untersuchungsergebnisse",
         "mustSupport": true
       },
       {

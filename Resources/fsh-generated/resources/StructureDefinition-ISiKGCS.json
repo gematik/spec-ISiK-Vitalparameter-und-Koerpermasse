@@ -19,6 +19,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
+        "comment": "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
         "mustSupport": true
       },
       {
@@ -56,61 +57,33 @@
         }
       },
       {
-        "id": "Observation.subject",
-        "path": "Observation.subject",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.encounter",
-        "path": "Observation.encounter",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.effective[x]",
-        "path": "Observation.effective[x]",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.performer",
-        "path": "Observation.performer",
-        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "comment": "Motivation: valueQuantity muss für VitalSigns unterstützt werden",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].value",
         "path": "Observation.value[x].value",
+        "comment": "Motivation: Eine Quantity soll einen Wert enthalten",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x].unit",
+        "path": "Observation.value[x].unit",
+        "comment": "Motivation: Eine Quantity soll eine Einheit enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].system",
         "path": "Observation.value[x].system",
+        "comment": "Motivation: Eine Quantity soll ein System mit dem die Einheit kodiert wird enthalten",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.dataAbsentReason",
-        "path": "Observation.dataAbsentReason",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.method",
-        "path": "Observation.method",
-        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.device",
-        "path": "Observation.device",
-        "comment": "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "comment": "Motivation: Eine Quantity soll einen Code der die Einheit kodiert enthalten",
         "mustSupport": true
       },
       {

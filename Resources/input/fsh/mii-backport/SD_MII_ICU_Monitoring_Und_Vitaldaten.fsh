@@ -6,9 +6,10 @@ Title: "SD MII ICU Monitoring und Vitaldaten"
 * obeys vs-de-2
 * identifier MS
 * basedOn MS
-  * ^short = "maximal Kardinalität bei Übernahme aus MII-Kerndatensatz-ICU entfernt"
+  * . ^short = "maximal Kardinalität bei Übernahme aus MII-Kerndatensatz-ICU entfernt"
 * partOf only Reference(Procedure)
 * status MS
+  * ^comment = "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
 * category MS
   * ^slicing.discriminator.type = #pattern
   * ^slicing.discriminator.path = "$this"

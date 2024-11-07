@@ -1,32 +1,18 @@
 Profile: ISiKAtemfrequenz
 Parent: VitalSignDE_Atemfrequenz
 Id: ISiKAtemfrequenz
-* insert Meta
-* status MS
-* category MS
-* category[VSCat] MS
+* insert ISiKVitalsignCommons
+* insert Quantity-MS
+* insert Observation-category-VSCat-MS
 * code MS
+  * ^comment = "Motivation: Die Observation wird anhand des Codes als Atemfrequenz identifiziert."
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+    * ^comment = "Motivation: Kodierung der Atemfrequenz nach LOINC."
   * coding[snomed] MS
+    * ^comment = "Motivation: Kodierung der Atemfrequenz nach SNOMED CT."
   * coding[snomed] = $sct#86290005
   * coding[IEEE11073] = $IEEE11073#151562
-* subject MS
-* encounter MS
-* effective[x] MS
-* value[x] MS
-* valueQuantity MS
-* valueQuantity.value MS
-* valueQuantity.unit MS
-* valueQuantity.system MS
-* valueQuantity.code MS
-* performer MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* dataAbsentReason MS
 
 Instance: ISiKAtemfrequenzExample
 InstanceOf: ISiKAtemfrequenz

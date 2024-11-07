@@ -1,22 +1,23 @@
 Profile: ISiKBlutdruckSystemischArteriell
 Parent: VitalSignDE_Blutdruck
 Id: ISiKBlutdruckSystemischArteriell
-* insert Meta
-* status MS
-* category MS
-* category[VSCat] MS
+* insert ISiKVitalsignCommons
+* insert Observation-category-VSCat-MS
 * code MS
+  * ^comment = "Motivation: Die Observation wird anhand des Codes als Blutdruck identifiziert."
   * coding contains IEEE11073 0..1
   * coding[loinc] MS
+    * ^comment = "Motivation: Kodierung des Blutdrucks nach LOINC."
   * coding[snomed] MS
+    * ^comment = "Motivation: Kodierung des Blutdrucks nach SNOMED CT."
   * coding[IEEE11073] = $IEEE11073#150016
-* subject MS
-* encounter MS
-* effective[x] MS
 * component MS
+  * ^comment = "Motivation: Die Komponenten des Blutdrucks werden als Component-Elemente abgebildet."
 * component[SystolicBP] MS
   * code MS
-    * coding MS  
+    * ^comment = "Motivation: Kodierung des systolischen Blutdrucks."
+    * coding MS
+      * ^comment = "Motivation: Codings "  
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
@@ -56,13 +57,7 @@ Id: ISiKBlutdruckSystemischArteriell
 * component[meanBP].value[x] MS
 * component[meanBP].valueQuantity MS
 * component[meanBP].dataAbsentReason MS
-* performer MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* dataAbsentReason MS
+
 
 Instance: ISiKBlutdruckSystemischArteriellExample
 InstanceOf: ISiKBlutdruckSystemischArteriell

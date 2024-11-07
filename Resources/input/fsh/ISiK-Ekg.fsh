@@ -1,16 +1,12 @@
 Profile: ISiKEKG
-Parent: http://fhir.de/StructureDefinition/observation-de-ekg
+Parent: EkgDE
 Id: ISiKEKG
-* insert Meta
+* insert ISiKVitalsignCommons
 * status MS
-* category MS
+  * ^comment = "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
 * code MS
   * coding[loinc] MS
   * coding[snomed] MS
-* subject MS
-* encounter MS
-* effective[x] MS
-* device MS
 * component MS
 * component.code MS
 * component.value[x] MS
@@ -19,13 +15,7 @@ Id: ISiKEKG
 * component.valueSampledData.period MS
 * component.valueSampledData.dimensions MS
 * component.valueSampledData.data MS
-* performer MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* dataAbsentReason MS
+
 
 Instance: ISiKEKGExample
 InstanceOf: ISiKEKG

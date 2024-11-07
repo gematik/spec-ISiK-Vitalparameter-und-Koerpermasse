@@ -2,7 +2,9 @@ Profile: ISiKGCS
 Parent: ScoreDE_GCS
 Id: ISiKGCS
 * insert Meta
+* insert Quantity-MS
 * status MS
+  * ^comment = "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
 * category MS
 * category[survey] MS
 * code
@@ -10,14 +12,6 @@ Id: ISiKGCS
   * coding[loinc] MS
   * coding[snomed] MS
   * coding[IEEE11073] = $IEEE11073#153728
-* subject MS
-* encounter MS
-* effective[x] MS
-* value[x] MS
-* valueQuantity MS
-* valueQuantity.value MS
-* valueQuantity.system MS
-* valueQuantity.code MS
 * component MS
 * component.code MS
 * component.value[x] MS
@@ -28,13 +22,7 @@ Id: ISiKGCS
 * component[Eye] MS
 * component[Motor] MS
 * component[Verbal] MS
-* performer MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* method MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* device MS
-  * ^comment = "Motivation: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-* dataAbsentReason MS
+
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS

@@ -30,6 +30,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
+        "comment": "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
         "mustSupport": true
       },
       {

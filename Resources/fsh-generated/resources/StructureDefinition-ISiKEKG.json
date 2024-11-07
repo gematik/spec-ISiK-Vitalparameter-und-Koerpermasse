@@ -19,11 +19,13 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
+        "comment": "Motivation: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
         "mustSupport": true
       },
       {
         "id": "Observation.category",
         "path": "Observation.category",
+        "comment": "Motivation: Dieses Feld erlaubt die Sortierung und Abfrage anhand von der Kategorie der Untersuchung",
         "mustSupport": true
       },
       {
@@ -46,12 +48,19 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "comment": "Motivation: Eine Untersuchung benötigt immer einen Patientenbezug",
         "mustSupport": true
       },
       {
         "id": "Observation.encounter",
         "path": "Observation.encounter",
+        "comment": "Motivation: Der Behandlungskontext ist für die Interpretation der Untersuchungsergebnisse relevant",
         "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "comment": "Motivation: Das Datum und die Uhrzeit der Untersuchung sind für die Interpretation der Untersuchungsergebnisse relevant"
       },
       {
         "id": "Observation.performer",
@@ -62,6 +71,7 @@
       {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
+        "comment": "Motivation: Dieses Feld erlaubt die Angabe von Gründen für fehlende Untersuchungsergebnisse",
         "mustSupport": true
       },
       {
