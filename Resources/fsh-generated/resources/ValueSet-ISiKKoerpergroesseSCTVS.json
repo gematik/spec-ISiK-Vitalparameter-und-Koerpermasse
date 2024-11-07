@@ -9,7 +9,7 @@
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergroesseSCTVS",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2024-10-04",
+  "date": "2024-10-16",
   "compose": {
     "include": [
       {
