@@ -36,8 +36,8 @@
     "fshName": "ISiKEkgExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Ekg.fsh",
-    "startLine": 21,
-    "endLine": 45
+    "startLine": 38,
+    "endLine": 62
   },
   {
     "outputFile": "Observation-ISiKGCSExample.json",
@@ -124,8 +124,8 @@
     "fshName": "ISiKEkg",
     "fshType": "Profile",
     "fshFile": "ISiK-Ekg.fsh",
-    "startLine": 1,
-    "endLine": 19
+    "startLine": 17,
+    "endLine": 36
   },
   {
     "outputFile": "StructureDefinition-ISiKGCS.json",
@@ -182,5 +182,13 @@
     "fshFile": "ISiK-Sauerstoffsaettigung.fsh",
     "startLine": 1,
     "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-EkgAbleitungenVS.json",
+    "fshName": "EkgAbleitungenVS",
+    "fshType": "ValueSet",
+    "fshFile": "ISiK-Ekg.fsh",
+    "startLine": 64,
+    "endLine": 82
   }
 ]
