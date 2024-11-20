@@ -3,7 +3,7 @@
 ----
 Version: 3.0.4
 
-Datum: 13.11.2024
+Datum: 20.11.2024
 
 Status: Aktiv
 
