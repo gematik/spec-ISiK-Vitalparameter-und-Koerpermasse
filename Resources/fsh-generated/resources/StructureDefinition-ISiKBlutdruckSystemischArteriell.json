@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKBlutdruckSystemischArteriell",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
-  "version": "4.0.1_MS-fixes",
+  "version": "4.0.1",
   "name": "ISiKBlutdruckSystemischArteriell",
   "status": "active",
   "experimental": false,

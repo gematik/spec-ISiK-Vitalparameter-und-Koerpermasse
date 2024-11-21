@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKGCS",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
-  "version": "4.0.1_MS-fixes",
+  "version": "4.0.1",
   "name": "ISiKGCS",
   "status": "active",
   "experimental": false,
@@ -18,11 +18,46 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "Untersuchungsstatus",
+        "comment": "Motivation MS: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "short": "Untersuchungskategorie",
+        "comment": "Motivation MS: Dieses Feld erlaubt die Sortierung und Abfrage anhand der Kategorie der Untersuchung",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.category:survey",
         "path": "Observation.category",
         "sliceName": "survey",
         "short": "Untersuchungskategorie",
         "comment": "Motivation MS: Dieses Feld erlaubt die Sortierung und Abfrage anhand der Kategorie der Untersuchung",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "short": "Code",
+        "comment": "Motivation MS: Die Observation wird anhand des Codes identifiziert.",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "comment": "Motivation MS: Kodierung des Vitalparameters mittels LOINC.",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "comment": "Motivation MS: Kodierung des Vitalparameters mittels SNOMED CT.",
         "mustSupport": true
       },
       {
@@ -35,6 +70,34 @@
           "code": "153728",
           "system": "urn:iso:std:iso:11073:10101"
         }
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "short": "Patient",
+        "comment": "Motivation MS: Ein Vitalparameter hat immer einen Patientenbezug",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "short": "Behandlungskontext",
+        "comment": "Motivation MS: Der Behandlungskontext ist für die Interpretation der Untersuchungsergebnisse relevant",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "short": "Datum und Uhrzeit der Untersuchung",
+        "comment": "Motivation MS: Das Datum und die Uhrzeit der Untersuchung sind für die Interpretation der Untersuchungsergebnisse relevant",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "short": "Untersuchender",
+        "comment": "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",
@@ -69,6 +132,27 @@
         "path": "Observation.value[x].code",
         "short": "Code der Einheit",
         "comment": "Motivation MS: Eine Quantity soll einen Code der die Einheit kodiert enthalten",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "short": "Grund für fehlende Untersuchungsergebnisse",
+        "comment": "Motivation MS: Dieses Feld erlaubt die Angabe von Gründen für fehlende Untersuchungsergebnisse",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "short": "Untersuchungsmethode",
+        "comment": "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "short": "Gerät",
+        "comment": "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {

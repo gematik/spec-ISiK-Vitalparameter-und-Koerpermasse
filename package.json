@@ -1,6 +1,6 @@
 {
   "name": "de.gematik.isik-vitalparameter",
-  "version": "4.0.1_MS-fixes",
+  "version": "4.0.1",
   "description": "Package Release des ISiK Modul Vitalparameter und Körpermaße",
   "fhirVersions": [
     "4.0.1"

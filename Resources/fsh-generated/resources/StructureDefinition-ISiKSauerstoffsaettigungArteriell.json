@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "ISiKSauerstoffsaettigungArteriell",
   "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
-  "version": "4.0.1_MS-fixes",
+  "version": "4.0.1",
   "name": "ISiKSauerstoffsaettigungArteriell",
   "status": "active",
   "experimental": false,

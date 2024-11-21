@@ -5,7 +5,7 @@
   "id": "vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter",
   "title": "VS MII ICU Unit equivalent UCUM L per minute and squaremeter",
   "description": "Dieses ValueSet enthält äquivalente Codes für Volumen pro Zeit und Körperoberfläche",
-  "version": "4.0.1_MS-fixes",
+  "version": "4.0.1",
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-unit-equivalent-ucum-l-per-minute-and-squaremeter",
   "experimental": false,
   "publisher": "gematik GmbH",

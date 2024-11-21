@@ -60,8 +60,8 @@
     "fshName": "ISiKGCSExample",
     "fshType": "Instance",
     "fshFile": "ISiK-GCS.fsh",
-    "startLine": 35,
-    "endLine": 51
+    "startLine": 36,
+    "endLine": 52
   },
   {
     "outputFile": "Observation-ISiKHerzfrequenzExample.json",
@@ -501,7 +501,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-GCS.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-ISiKHerzfrequenz.json",
