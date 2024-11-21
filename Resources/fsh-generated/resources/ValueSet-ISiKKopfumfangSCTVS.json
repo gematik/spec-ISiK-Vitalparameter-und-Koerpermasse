@@ -5,11 +5,11 @@
   "id": "ISiKKopfumfangSCTVS",
   "title": "ISiKKopfumfangSCTVS",
   "description": "ValueSet des Kopfumfang SnomedCT Codes in ISiK",
-  "version": "4.0.1",
+  "version": "4.0.1_MS-fixes",
   "url": "https://gematik.de/fhir/isik/ValueSet/ISiKKopfumfangSCTVS",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2024-10-16",
+  "date": "2024-11-14",
   "compose": {
     "include": [
       {
