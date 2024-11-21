@@ -1,17 +1,17 @@
 RuleSet: Meta
 * ^status = #active
 * ^experimental = false
-* ^version = "4.0.1"
+* ^version = "4.0.1_MS-fixes"
 * ^publisher = "gematik GmbH"
-* ^date = "2024-10-16"
+* ^date = "2024-11-14"
 
 RuleSet: Meta-CapabilityStatement
 * status = #active
 * experimental = false
-* version = "4.0.1"
+* version = "4.0.1_MS-fixes"
 * publisher = "gematik GmbH"
-* date = "2024-10-16"
-* implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.1"
+* date = "2024-11-14"
+* implementationGuide = "https://gematik.de/fhir/isik/ImplementationGuide/ISiK-Vitalparameter|4.0.1_MS-fixes"
 
 RuleSet: supporteProfile-SHALL(canonical, expectation)
 * rest.resource[=].supportedProfile[+] = Canonical({canonical})
@@ -97,7 +97,7 @@ RuleSet: Quantity-MS
 * valueQuantity.code MS
   * ^comment = "Motivation MS: Eine Quantity soll einen Code der die Einheit kodiert enthalten"
   * ^short = "Code der Einheit"
- 
+
 RuleSet: Observation-category-VSCat-MS
 * category[VSCat] MS
   * ^comment = "Motivation MS: Die Kategorie 'vital-signs' dient der Kategorisierung von Vitalparametern"
