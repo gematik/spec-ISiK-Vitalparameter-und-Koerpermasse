@@ -9,7 +9,7 @@ Version: 4.0.1
 Datum: tbd.
 
 * Fehlende Codes zu ValueSet hinzugefügt https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/175
-*  feat: Beschreibungen und MS-Kommentare für alle "Nicht-MII"-Ressourcen hinzugefügt https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/184
+*  improve: Beschreibungen und MS-Kommentare für alle "Nicht-MII"-Ressourcen hinzugefügt und MS für value[x] verbessert https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/pull/184
 ---
 Version: 4.0.0
 
