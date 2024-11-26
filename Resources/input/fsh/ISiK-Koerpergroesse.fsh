@@ -31,8 +31,8 @@ Usage: #example
 * meta.profile[+] = Canonical(VitalSignDE_Koerpergroesse)
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[0] = $loinc#8302-2 "Body height"
-* code.coding[+] = $sct#1153637007 "Body height (observable entity)"
+* code = $loinc#8302-2 "Body height"
+* code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
 * subject = Reference(PatientinMusterfrau)

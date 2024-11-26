@@ -17,27 +17,42 @@ Das Profil ISiKGCS ist vom Profil [ScoreDE_GCS](http://fhir.de/StructureDefiniti
 * code
   * coding contains IEEE11073 0..1
   * coding[IEEE11073] = $IEEE11073#153728
-* component
-  * insert Quantity-MS
-  * code MS
-    * ^comment = "Motivation MS: Die Komponente wird anhand des Codes identifiziert."
-    * ^short = "Code"
+* component MS
+  * insert Component-MS
+  * valueCodeableConcept MS
+    * ^comment = "Motivation MS: Kodierung der Ergebnisse der GCS-Komponenten."
+    * ^short = "Kodiertes Ergebnis"
+    * insert CodeableConcept-MS
 * component[Eye] MS
   * ^comment = "Motivation MS: Kodierung des Augenöffnungsreflexes."
   * ^short = "Augenöffnungsreflex"
+  * insert Component-Slice-MS  
+  * valueCodeableConcept MS
+    * ^comment = "Motivation MS: Kodierung der Ergebnisse der GCS-Komponenten."
+    * ^short = "Kodiertes Ergebnis"
+    * insert CodeableConcept-MS
 * component[Motor] MS
   * ^comment = "Motivation MS: Kodierung der motorischen Reaktion."
   * ^short = "Motorische Reaktion"
+  * insert Component-Slice-MS  
+  * valueCodeableConcept MS
+    * ^comment = "Motivation MS: Kodierung der Ergebnisse der GCS-Komponenten."
+    * ^short = "Kodiertes Ergebnis"
+    * insert CodeableConcept-MS
 * component[Verbal] MS
   * ^comment = "Motivation MS: Kodierung der verbalen Reaktion."
   * ^short = "Verbale Reaktion"
-
+  * insert Component-Slice-MS  
+  * valueCodeableConcept MS
+    * ^comment = "Motivation MS: Kodierung der Ergebnisse der GCS-Komponenten."
+    * ^short = "Kodiertes Ergebnis"
+    * insert CodeableConcept-MS
 
 Instance: ISiKGCSExample
 InstanceOf: ISiKGCS
 Usage: #example
 * meta.profile[+] = Canonical(ScoreDE_GCS)
-* code.coding[loinc] = $loinc#9269-2 "Glasgow coma score total"
+* code = $loinc#9269-2 "Glasgow coma score total"
 * code.coding[snomed] = $sct#248241002 "Glasgow coma score (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#153728 "MDC_SCORE_GLAS_COMA"
 * valueQuantity = 11 '1' "Punktwert"

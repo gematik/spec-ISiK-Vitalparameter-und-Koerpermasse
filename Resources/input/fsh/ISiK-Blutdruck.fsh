@@ -15,18 +15,17 @@ Das Profil ISiKBlutdruckSystemischArteriell ist vom Profil [VitalSignDE_Blutdruc
   * coding contains IEEE11073 0..1
   * coding[IEEE11073] = $IEEE11073#150016
 * component MS
-  * ^comment = "Motivation MS: Die Komponenten des Blutdrucks werden als Component-Elemente abgebildet."
-  * ^short = "Blutdruck-Untersuchungs-Komponente"
+  * insert Component-MS
+  * dataAbsentReason MS
+    * ^comment = "Motivation MS: Dieses Feld erlaubt die Angabe von Gründen für fehlende Untersuchungsergebnisse"
+    * ^short = "Grund für fehlendes Untersuchungsergebniss"
 * component[SystolicBP] MS
   * ^comment = "Motivation MS: Kodierung des systolischen Blutdrucks."
   * ^short = "Systolischer Blutdruck"
   * insert Quantity-MS
-  * code MS
-    * ^comment = "Motivation MS: Die Komponente wird anhand des Codes identifiziert."
-    * ^short = "Code"
-    * coding MS
-      * ^comment = "Motivation MS: Semantische Kodierung"
-      * ^short = "Coding" 
+  * insert Component-Slice-MS
+  * code
+    * coding 
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
@@ -42,12 +41,9 @@ Das Profil ISiKBlutdruckSystemischArteriell ist vom Profil [VitalSignDE_Blutdruc
   * ^comment = "Motivation MS: Kodierung des diastolischen Blutdrucks."
   * ^short = "Diastolischer Blutdruck"
   * insert Quantity-MS
-  * code MS
-    * ^comment = "Motivation MS: Die Komponente wird anhand des Codes identifiziert."
-    * ^short = "Code"
-    * coding MS
-      * ^comment = "Motivation MS: Semantische Kodierung"
-      * ^short = "Coding"  
+  * insert Component-Slice-MS
+  * code 
+    * coding 
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
@@ -63,12 +59,9 @@ Das Profil ISiKBlutdruckSystemischArteriell ist vom Profil [VitalSignDE_Blutdruc
   * ^comment = "Motivation MS: Kodierung des mittleren arteriellen Drucks."
   * ^short = "Mittlerer arterieller Druck"
   * insert Quantity-MS
-  * code MS
-    * ^comment = "Motivation MS: Die Komponente wird anhand des Codes identifiziert."
-    * ^short = "Code"
-    * coding MS  
-      * ^comment = "Motivation MS: Semantische Kodierung"
-      * ^short = "Coding"  
+  * insert Component-Slice-MS
+  * code
+    * coding
       * ^slicing.discriminator.type = #pattern
       * ^slicing.discriminator.path = "$this"
       * ^slicing.rules = #open
@@ -89,8 +82,7 @@ Usage: #example
 * meta.profile[+] = "http://fhir.de/StructureDefinition/observation-de-vitalsign-blutdruck"
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code
-  * coding[loinc] = $loinc#85354-9 "Blood pressure panel with all children optional"
+* code = $loinc#85354-9 "Blood pressure panel with all children optional"
   * coding[snomed] = $sct#75367002 "Blood pressure (observable entity)"
   * coding[IEEE11073] = $IEEE11073#150016 "MDC_PRESS_BLD"
   * text = "Systolischer und Diastolischer Blutdruck"

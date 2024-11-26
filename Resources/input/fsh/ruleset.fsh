@@ -55,9 +55,14 @@ RuleSet: ISiKVitalsignCommons
 * code MS
   * ^comment = "Motivation MS: Die Observation wird anhand des Codes identifiziert."
   * ^short = "Code"
+  * coding MS
+    * ^comment = "Motivation MS: Semantische Kodierung"
+    * ^short = "Coding"
   * coding[loinc] MS
+    * ^short = "LOINC Kodierung"
     * ^comment = "Motivation MS: Kodierung des Vitalparameters mittels LOINC."
   * coding[snomed] MS
+    * ^short = "SNOMED CT Kodierung"
     * ^comment = "Motivation MS: Kodierung des Vitalparameters mittels SNOMED CT."
 * subject MS
   * ^comment = "Motivation MS: Ein Vitalparameter hat immer einen Patientenbezug"
@@ -80,6 +85,9 @@ RuleSet: ISiKVitalsignCommons
 * dataAbsentReason MS
   * ^comment = "Motivation MS: Dieses Feld erlaubt die Angabe von Gründen für fehlende Untersuchungsergebnisse"
   * ^short = "Grund für fehlende Untersuchungsergebnisse"
+* value[x] MS
+  * ^comment = "Motivation MS: Der Wert des Vitalparameters ist das zentrale Ergebnis der Untersuchung"
+  * ^short = "Untersuchungsergebnis"
 
 RuleSet: Quantity-MS
 * valueQuantity MS
@@ -97,6 +105,33 @@ RuleSet: Quantity-MS
 * valueQuantity.code MS
   * ^comment = "Motivation MS: Eine Quantity soll einen Code der die Einheit kodiert enthalten"
   * ^short = "Code der Einheit"
+
+RuleSet: CodeableConcept-MS
+* coding MS
+  * ^comment = "Motivation MS: Semantische Kodierung."
+  * ^short = "Coding"
+  * code MS
+    * ^comment = "Motivation MS: Kodierter Wert aus einem CodeSystem."
+    * ^short = "Code"
+  * system MS
+    * ^comment = "Motivation MS: URL des CodeSystems des kodierten Wertes."
+    * ^short = "System"
+
+RuleSet: Component-MS
+* ^comment = "Motivation MS: Erfassung der Komponenten eines Vitalparameters" 
+* ^short = "Vitalparameter-Komponente"
+* insert Component-Slice-MS
+
+RuleSet: Component-Slice-MS
+* code MS
+  * ^comment = "Motivation MS: Die Komponente wird anhand des Codes identifiziert."
+  * ^short = "Code"
+  * coding MS
+    * ^comment = "Motivation MS: Semantische Kodierung"
+    * ^short = "Coding" 
+* value[x] MS
+  * ^comment = "Motivation MS: Der Wert der Komponente ist ein Ergebnis der Untersuchung"
+  * ^short = "Wert der Komponente"
 
 RuleSet: Observation-category-VSCat-MS
 * category[VSCat] MS

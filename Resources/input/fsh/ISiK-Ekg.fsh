@@ -11,8 +11,8 @@ In FHIR wird das EKG durch die Observation-Ressource repräsentiert, wobei spezi
 Das Profil ISiKEKG ist vom Profil [EkgDE](http://fhir.de/StructureDefinition/observation-de-ekg) aus den deutschen Basisprofilen abgeleitet."
 * insert ISiKVitalsignCommons
 * component MS
-  * ^comment = "Motivation MS: Die Komponenten des EKGs werden als Component-Elemente abgebildet."
-  * ^short = "EKG-Untersuchungs-Komponenten"
+  * insert Component-MS
+//TODO MS auf sliced umstellen nach PR basisprofile mit ekg sliced
 * component.valueSampledData MS
   * ^comment = "Motivation MS: Die EKG-Daten werden mittels des SampledData Datentyps abgebildet."
   * ^short = "SampledData"

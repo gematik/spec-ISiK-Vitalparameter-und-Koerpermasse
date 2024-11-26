@@ -24,7 +24,7 @@ Usage: #example
 * meta.profile[+] = Canonical(VitalSignDE_Atemfrequenz)
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
-* code.coding[loinc] = $loinc#9279-1 "Respiratory rate"
+* code = $loinc#9279-1 "Respiratory rate"
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#151562 "MDC_RESP_RATE"
 * code.text = "Atemfrequenz"

@@ -20,10 +20,10 @@ Instance: ISiKSauerstoffsaettigungArteriellExample
 InstanceOf: ISiKSauerstoffsaettigungArteriell
 Usage: #example
 * meta.profile[+] = "http://hl7.org/fhir/StructureDefinition/oxygensat"
-* meta.profile[+] = Canonical(VitalSignDE_Arterielle_Sauerstoffsaettigung_Pulsoximetrie)
+* meta.profile[+] = Canonical(VitalSignDE_Arterielle_Sauerstoffsaettigung)
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code = $loinc#2708-6 "Oxygen saturation in Arterial blood"
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[IEEE11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Pulsoximetrische Sauerstoffsättigung"

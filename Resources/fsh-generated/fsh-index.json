@@ -44,8 +44,8 @@
     "fshName": "ISiKBlutdruckSystemischArteriellExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Blutdruck.fsh",
-    "startLine": 85,
-    "endLine": 114
+    "startLine": 78,
+    "endLine": 106
   },
   {
     "outputFile": "Observation-ISiKEKGExample.json",
@@ -60,8 +60,8 @@
     "fshName": "ISiKGCSExample",
     "fshType": "Instance",
     "fshFile": "ISiK-GCS.fsh",
-    "startLine": 36,
-    "endLine": 52
+    "startLine": 51,
+    "endLine": 67
   },
   {
     "outputFile": "Observation-ISiKHerzfrequenzExample.json",
@@ -485,7 +485,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 82
+    "endLine": 75
   },
   {
     "outputFile": "StructureDefinition-ISiKEKG.json",
@@ -501,7 +501,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-GCS.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 49
   },
   {
     "outputFile": "StructureDefinition-ISiKHerzfrequenz.json",

@@ -31,7 +31,7 @@ Usage: #example
 * meta.profile[+] = Canonical(VitalSignDE_Koerpertemperatur)
 * status = #final
 * category[VSCat] = $observation-category#vital-signs
-* code.coding[loinc] = $loinc#8310-5 "Body temperature"
+* code = $loinc#8310-5 "Body temperature"
 * code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#150364 "MDC_TEMP_BODY"
 * code.text = "Körpertemperatur"
