@@ -44,8 +44,8 @@
     "fshName": "ISiKBlutdruckSystemischArteriellExample",
     "fshType": "Instance",
     "fshFile": "ISiK-Blutdruck.fsh",
-    "startLine": 78,
-    "endLine": 106
+    "startLine": 71,
+    "endLine": 99
   },
   {
     "outputFile": "Observation-ISiKEKGExample.json",
@@ -485,7 +485,7 @@
     "fshType": "Profile",
     "fshFile": "ISiK-Blutdruck.fsh",
     "startLine": 1,
-    "endLine": 75
+    "endLine": 69
   },
   {
     "outputFile": "StructureDefinition-ISiKEKG.json",

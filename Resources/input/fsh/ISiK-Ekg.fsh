@@ -17,16 +17,16 @@ Das Profil ISiKEKG ist vom Profil [EkgDE](http://fhir.de/StructureDefinition/obs
   * ^comment = "Motivation MS: Die EKG-Daten werden mittels des SampledData Datentyps abgebildet."
   * ^short = "SampledData"
 * component.valueSampledData.origin MS
-  * ^comment = "Motivation MS: Das Feld origin definiert den Referenzpunkt und die Einheit der Messreihe, um sicherzustellen, dass die gemessenen Werte im richtigen Kontext interpretiert werden können."
+  * ^comment = "Motivation MS: Das Feld `origin` definiert den Referenzpunkt und die Einheit der Messreihe, um sicherzustellen, dass die gemessenen Werte im richtigen Kontext interpretiert werden können."
   * ^short = "Ausgangswert"
 * component.valueSampledData.period MS
-  * ^comment = "Motivation MS: Das Feld period definiert die zeitliche Distanz zwischen zwei aufeinanderfolgenden Messwerten."
+  * ^comment = "Motivation MS: Das Feld `period` definiert die zeitliche Distanz zwischen zwei aufeinanderfolgenden Messwerten."
   * ^short = "Messintervall"
 * component.valueSampledData.dimensions MS
-  * ^comment = "Motivation MS: Das Feld dimensions gibt die Anzahl der Achsen oder Dimensionen an, die in der Messreihe enthalten sind, und ist notwendig, um die Struktur der Daten korrekt zu verstehen."
+  * ^comment = "Motivation MS: Das Feld `dimensions` gibt die Anzahl der Achsen oder Dimensionen an, die in der Messreihe enthalten sind, und ist notwendig, um die Struktur der Daten korrekt zu verstehen."
   * ^short = "Dimensionen"
 * component.valueSampledData.data MS
-  * ^comment = "Motivation MS: Das Feld data enthält die eigentlichen Messwerte der EKG-Daten."
+  * ^comment = "Motivation MS: Das Feld `data` enthält die eigentlichen Messwerte der EKG-Daten."
   * ^short = "Messwerte"
 
 Instance: ISiKEKGExample
