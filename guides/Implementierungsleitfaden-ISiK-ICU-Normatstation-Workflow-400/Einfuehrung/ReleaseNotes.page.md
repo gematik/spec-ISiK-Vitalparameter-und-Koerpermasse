@@ -13,7 +13,7 @@ Darüber hinaus wird die Versionierung unabhängig von allen anderen Modulen und
 
 ---
 
-## Version 4.0.1
+## Version 4.0.0
 
 Datum: tbd.
 * `improved` Refactoring des Workflows als eigenständiger ImplementationGuide

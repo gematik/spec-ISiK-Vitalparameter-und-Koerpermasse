@@ -3,7 +3,7 @@ topic: ImplementationGuide-markdown-UseCasesAnwendung-UseCases
 ---
 # Use Cases
 
-## Use Cases und Workflows - Übergang zwischen Akut- und Normalversorgung
+## Use Cases - Übergang zwischen Akut- und Normalversorgung
 Zahlreiche Use Cases rund um den Überleitungsprozess zwischen einer Intensiv- und einer Normalstation  (bidirektional) innerhalb eines Krankenhauses sind vorstellbar. Neben illustrierenden Use Stories wird an dieser Stelle auch eine Workflow-Perspektive eingenommen. 
 
 Zum jetzigen Stand kann die Spezifikation keine umfassende Abdeckung eines Überleitungsprozesses vorweisen. Vielmehr wird die Überleitung zwischen Intensiv- und Normalversorgung (bidirektional) auf der Ebene eines Workflows abgebildet, fokussierend auf die Kommunikation relevanter Daten aus Normalversorgung (KIS) und Intensivversorgung (PDMS).
