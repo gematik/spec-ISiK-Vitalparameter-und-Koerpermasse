@@ -10,3 +10,4 @@
 ^https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital
 ^https://simplifier.net/isik-vitalparameter-v4/Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung
 ^https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-unter-der-Zunge
+^https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-vaginal
