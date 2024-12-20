@@ -8,3 +8,5 @@
 ^https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell
 ^https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS
 ^https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital
+^https://simplifier.net/isik-vitalparameter-v4/Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung
+^https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-unter-der-Zunge

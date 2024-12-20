@@ -37,4 +37,4 @@ jobs:
             .
             --exclude-path ImplementationGuide/style
             --exclude-path Material
-            --max-concurrency 1
+      

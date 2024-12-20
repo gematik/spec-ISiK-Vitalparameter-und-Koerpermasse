@@ -32,7 +32,7 @@ Folgende Profile MÜSSEN durch PDMS implementiert werden und - was als gleichwer
 - Linksventrikulaeres Schlagvolumenindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumenindex
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaeres-Schlagvolumenindex
 - Linksv. Schlagvolumenindex durch Indikatorverd. (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd  
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksvent-Schlagvolumenindex-Durch-Indikatorverduennung
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-schlagvolumenindex
 - Linksv. Schlagvolumen durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung
 - Pulmonalvaskulärer Widerstandsindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalvaskulaerer-widerstandsindex
@@ -111,7 +111,7 @@ Alle bestätigungsrelevanten Systeme für dieses Modul MÜSSEN Ressourcen verarb
 - Koerpertemperatur Achsel (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-achsel
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Achsel 
 - Koerpertemperatur unter der Zunge (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-unter-der-Zunge
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-oral
 - Koerpertemperatur vaginal (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-vaginal
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-vaginal
 - Koerpertemperatur Harnblase (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-harnblase
