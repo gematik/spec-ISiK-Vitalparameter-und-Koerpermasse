@@ -38,5 +38,5 @@ jobs:
             --exclude-path ImplementationGuide/style
             --exclude-path Material
             --cache
-            --cache-timeout 86400  # Cache für 24 Stunden
+           
       
