@@ -4,3 +4,7 @@
 ^http://hl7\.org/fhir/5\.0/StructureDefinition/extension-Encounter\.plannedStartDate
 ^http://hl7\.org/fhir/5\.0/StructureDefinition/extension-Encounter\.plannedEndDate
 ^https://breathe.ersjournals.com/content/16/2/200062
+^https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell
+^https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell
+^https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS
+^https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerHospital
