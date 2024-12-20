@@ -18,7 +18,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#76297-1 "Left ventricular Stroke volume index"
   * coding[IEEE-11073] = $IEEE11073#150636 "MDC_VOL_BLD_STROKE_INDEX"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

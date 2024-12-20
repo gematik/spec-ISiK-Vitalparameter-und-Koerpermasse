@@ -36,7 +36,7 @@
         "display": "MDC_SAT_O2_ART"
       }
     ],
-    "text": "Pulsoximetrische Sauerstoffsättigung"
+    "text": "Arterielle Sauerstoffsättigung"
   },
   "valueQuantity": {
     "system": "http://unitsofmeasure.org",

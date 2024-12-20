@@ -20,7 +20,7 @@ Usage: #example
   * coding[loinc] = $loinc#8328-7 "Axillary temperature"
   * coding[sct] = $sct#415882003 "Estimated core body temperature measured in axillary region (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#188452 "MDC_TEMP_AXILLA"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

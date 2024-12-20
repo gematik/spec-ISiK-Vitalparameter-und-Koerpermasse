@@ -35,6 +35,6 @@ Usage: #example
 * code.coding[snomed] = $sct#1153637007 "Body height (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#188740 "MDC_LEN_BODY_ACTUAL"
 * code.text = "Körpergröße"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 174 'cm' "centimeter"

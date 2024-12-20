@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#61009-7 "Myocardial temperature"
   * coding[IEEE-11073] = $IEEE11073#188500 "Myocardial temperature"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

@@ -35,6 +35,6 @@ Usage: #example
 * code.coding[snomed] = $sct#27113001 "Body weight"
 * code.coding[IEEE11073] = $IEEE11073#188736 "MDC_MASS_BODY_ACTUAL"
 * code.text = "Körpergewicht"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 79 'kg' "kilogram"

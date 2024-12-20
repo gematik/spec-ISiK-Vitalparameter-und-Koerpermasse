@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[sct] = $sct#415929009 "Estimated core body temperature measured in inguinal region (observable entity)"
   * coding[loinc] = $loinc#104063-3 "Body temperature - Groin"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

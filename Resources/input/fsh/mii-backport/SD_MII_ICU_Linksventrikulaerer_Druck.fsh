@@ -32,7 +32,7 @@ Usage: #example
 * code 
   * coding[sct] = $sct#276769008 "Left ventricular pressure (observable entity)"
   * coding[IEEE11073] = $IEEE11073#150100 "MDC_PRESS_BLD_VENT_LEFT"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[meanBP]
   * code

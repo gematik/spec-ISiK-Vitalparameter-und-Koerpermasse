@@ -16,14 +16,6 @@
     "endLine": 164
   },
   {
-    "outputFile": "Device-ExampleDevice.json",
-    "fshName": "ExampleDevice",
-    "fshType": "Instance",
-    "fshFile": "instances.fsh",
-    "startLine": 14,
-    "endLine": 17
-  },
-  {
     "outputFile": "Observation-Herzzeitvolumen.json",
     "fshName": "Herzzeitvolumen",
     "fshType": "Instance",
@@ -462,14 +454,6 @@
     "fshFile": "mii-backport/SD_MII_ICU_Zentralvenoeser_Blutdruck.fsh",
     "startLine": 17,
     "endLine": 30
-  },
-  {
-    "outputFile": "Patient-PatientinMusterfrau.json",
-    "fshName": "PatientinMusterfrau",
-    "fshType": "Instance",
-    "fshFile": "instances.fsh",
-    "startLine": 1,
-    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-ISiKAtemfrequenz.json",

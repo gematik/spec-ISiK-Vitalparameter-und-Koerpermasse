@@ -57,7 +57,7 @@ Usage: #example
 * code.coding[IEEE11073] = $IEEE11073#153728 "MDC_SCORE_GLAS_COMA"
 * valueQuantity = 11 '1' "Punktwert"
 * status = #final
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * component[Verbal].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[Verbal].valueCodeableConcept = $loinc#LA6560-2 "Confused"

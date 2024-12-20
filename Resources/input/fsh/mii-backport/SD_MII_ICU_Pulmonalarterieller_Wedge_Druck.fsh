@@ -22,7 +22,7 @@ Usage: #example
   * coding[loinc] = $loinc#75994-4 "Pulmonary artery wedge pressure"
   * coding[sct] = $sct#118433006 "Pulmonary artery wedge pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150052 "Pulmonary artery wedge pressure"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

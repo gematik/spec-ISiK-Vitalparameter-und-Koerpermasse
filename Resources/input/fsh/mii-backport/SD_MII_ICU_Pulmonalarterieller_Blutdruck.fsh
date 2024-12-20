@@ -47,7 +47,7 @@ Usage: #example
   * coding[sct] = $sct#250767002 "Pulmonary artery pressure"
   * coding[loinc] = $loinc#76284-9 "Pulmonary artery Blood pressure"
   * coding[IEEE-11073] = $IEEE11073#150044 "MDC_PRESS_BLD_ART_PULM"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[SystolicBP]
   * code

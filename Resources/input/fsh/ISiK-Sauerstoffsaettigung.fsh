@@ -27,7 +27,7 @@ Usage: #example
 * code.coding[snomed] = $sct#442476006 "Arterial oxygen saturation"
 * code.coding[IEEE11073] = $IEEE11073#150324 "MDC_SAT_O2_ART"
 * code.text = "Arterielle Sauerstoffsättigung"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 98 '%' "%"
 * component[0].code.coding[0] = $loinc#3151-8 "Inhaled oxygen flow rate"

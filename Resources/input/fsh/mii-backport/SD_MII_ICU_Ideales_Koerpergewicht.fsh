@@ -21,7 +21,7 @@ Usage: #example
   * coding[loinc] = $loinc#50064-5 "Ideal body weight"
   * coding[sct] = $sct#170804003 "Ideal body weight (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#188796 "MDC_MASS_BODY_EST_IBW"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

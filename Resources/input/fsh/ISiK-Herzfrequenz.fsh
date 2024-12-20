@@ -35,6 +35,6 @@ Usage: #example
 * code.coding[snomed] = $sct#364075005 "Heart rate (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#147842 "MDC_ECG_HEART_RATE"
 * code.text = "Herzfrequenz"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 63 '/min' "per minute"

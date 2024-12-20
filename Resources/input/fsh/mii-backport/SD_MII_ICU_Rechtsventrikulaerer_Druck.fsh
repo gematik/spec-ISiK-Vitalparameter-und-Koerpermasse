@@ -36,7 +36,7 @@ Usage: #example
 * category = ObservationCategoryCodes#vital-signs
 * code.coding[sct] = $sct#276756009 "Right ventricular pressure (observable entity)"
 * code.coding[IEEE-11073] = $IEEE11073#150104 "MDC_PRESS_BLD_VENT_RIGHT"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2019-12-23T09:30:10+01:00"
 * component[meanBP]
   * code

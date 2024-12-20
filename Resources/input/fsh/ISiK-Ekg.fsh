@@ -35,10 +35,10 @@ Usage: #example
 * meta.profile[+] = Canonical(EkgDE)
 * code.coding[loinc] = $loinc#11524-6 "EKG study"
 * code.coding[snomed] = $sct#106073009 "EKG wave, interval AND/OR segment"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * status = #final
 * category = $observation-category#procedure
-* device = Reference(ExampleDevice)
+* device.reference = "Device/ExampleDevice"
 * effectiveDateTime = "2019-07-02"
 * component[ekgLeads][+].code = $loinc#LP7386-8 "Lead I"
 * component[ekgLeads][=].valueSampledData.origin.value = 2048

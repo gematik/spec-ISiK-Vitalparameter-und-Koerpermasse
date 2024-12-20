@@ -19,7 +19,7 @@ Usage: #example
 * code
   * coding[loinc] = $loinc#60955-2 "Airway temperature"
   * coding[IEEE-11073] = $IEEE11073#150356 "MDC_TEMP_AWAY"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

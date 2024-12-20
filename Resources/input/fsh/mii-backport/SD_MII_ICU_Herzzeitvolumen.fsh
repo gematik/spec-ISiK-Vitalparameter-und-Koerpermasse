@@ -22,7 +22,7 @@ Usage: #example
   * coding[loinc] = $loinc#8741-1 "Left ventricular Cardiac output"
   * coding[sct] = $sct#82799009 "Cardiac output (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#150276 "Cardiac output"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"

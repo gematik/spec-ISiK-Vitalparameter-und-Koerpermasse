@@ -38,6 +38,6 @@ Usage: #example
 * code.coding[snomed] = $sct#363812007 "Head circumference (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#153856 "MDC_CIRCUM_HEAD"
 * code.text = "Kopfumfang"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 38 'cm' "Centimeter"

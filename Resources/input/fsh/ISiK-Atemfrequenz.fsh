@@ -28,6 +28,6 @@ Usage: #example
 * code.coding[snomed] = $sct#86290005 "Respiratory rate (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#151562 "MDC_RESP_RATE"
 * code.text = "Atemfrequenz"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2019-07-02"
 * valueQuantity = 26 '/min' "Atemzüge pro Minute"

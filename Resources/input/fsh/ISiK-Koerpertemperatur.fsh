@@ -35,6 +35,6 @@ Usage: #example
 * code.coding[snomed] = $sct#386725007 "Body temperature (observable entity)"
 * code.coding[IEEE11073] = $IEEE11073#150364 "MDC_TEMP_BODY"
 * code.text = "Körpertemperatur"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectiveDateTime = "2020-10-11"
 * valueQuantity = 36.8 'Cel' "°C"

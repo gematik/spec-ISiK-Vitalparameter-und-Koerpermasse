@@ -22,7 +22,7 @@ Usage: #example
   * coding[loinc] = $loinc#60956-0 "Intracranial pressure (ICP)"
   * coding[sct] = $sct#250844005 "Intracranial pressure (observable entity)"
   * coding[IEEE-11073] = $IEEE11073#153608 "Intracranial pressure"
-* subject = Reference(PatientinMusterfrau)
+* subject.reference = "Patient/PatientinMusterfrau"
 * effectivePeriod
   * start = "2019-12-23T09:30:10+01:00"
   * end = "2019-12-23T10:30:10+01:00"
