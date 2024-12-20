@@ -5,8 +5,10 @@
 - name: ReleaseNotes
   filename: ReleaseNotes.page.md
 - name: Use Cases
-  filename: UseCasesAnwendung
-- name: Übergreifende Festlegungen
-  filename: UebergreifendeFestlegungen
-- name: Datenobjekte
-  filename: Datenobjekte
+  filename: UseCases.page.md
+- name: Akteure
+  filename: Akteure.page.md
+- name: Prozesse und Workflows
+  filename: ProzesseUndWorkflows.page.md
+- name: Anforderungen
+  filename: Anforderungen

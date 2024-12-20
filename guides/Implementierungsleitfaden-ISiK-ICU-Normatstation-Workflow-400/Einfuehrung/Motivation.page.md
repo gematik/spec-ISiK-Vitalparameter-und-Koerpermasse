@@ -6,21 +6,16 @@ topic: ImplementationGuide-markdown-Motivation
 ## Motivation und Hintergrund
 Dieser Abschnitt des Implementierungsleitfadens beschreibt eine bidirektionale Überleitung zwischen Intensiv- und Normalversorgung auf der Ebene eines Workflows zur Datenkommunikation zwischen den betroffenen Systemen (PDMS und KIS).
 
-###  Stakeholder, User und weitere Systeme
+###  Stakeholder
 Die Spezifikation richtet sich insbesondere an SW-Hersteller von KIS und PDMS.
 
-Es handelt sich um eine technische Spezifikation, zu der keine weiteren medizinischen Fachexperten zu Rate gezogen werden. 
+Es handelt sich um eine technische Spezifikation, zu der keine weiteren medizinischen Fachexperten zu Rate gezogen werden. Allerdings sind einige Profile, die relvant sind für die Umsetzung des Worfklows einer medizinischen Validierung unterzogen worden (#TODO LINK MII).
 
 Kommunikations-Workflows, die auf der hiesigen Schnittstellen-Festlegung aufbauen, können lediglich der Unterstützung von Versorgung und Qualitätssicherungsmaßnahmen in der Überleitung zwischen Intensiv- und Normalversorgung (bidirektional) dienen.
 
-###  User und Systeme im Fokus
+###  User
 Primär zu berücksichtigende User sind
 * Krankenhausmitarbeitende (insbesondere intensivmedizinisches Personal, MFAs, Ärzte etc.)
-
-Beteiligte Systeme sind prinzipiell alle [bestätigungsrelevanten Systeme](https://simplifier.net/guide/isik-basis-v4/UebergreifendeFestlegungen_BestaetigungsrelevanteSysteme?version=current). Primär hervorzuheben sind entsprechend der Definition der DKG dabei:
-* KIS mit Funktion elektronische Kurve bzw. entsprechendes KIS-Modul
-* Patientendaten-Managementsystem (PDMS) [z.B. für Intensivbereiche]
-* Elektronische Kurve [z.B. für die Verwendung auf Normal-Stationen]
 
 ###  Einordnung in die ISiK Landschaft
 Als übergreifender Use Case (bzw. Workflow) ist die Überleitung zwischen Intensiv- und Normalversorgung nicht allein im Modul Vitalparameter verankert. Dennoch werden aus verschiedenen fachlichen Gründen  die  wesentlichen Ressourcen hier vorgehalten. 
