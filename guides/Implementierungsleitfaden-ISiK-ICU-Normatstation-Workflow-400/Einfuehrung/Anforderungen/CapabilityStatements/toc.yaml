@@ -1,5 +1,5 @@
 - name: Index
-  filename: ISiKCapabilityStatementVitalparameterServerHospital
+  filename: Index.page.md
 - name: 'Akteur: ISiKCapabilityStatementVitalparameterServerHospital'
   filename: Akteur-ISiKCapabilityStatementVitalparameterServerHospital.page.md
 - name: ISiKCapabilityStatementVitalparameterServerPDMS
