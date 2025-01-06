@@ -1,3 +1,7 @@
+---
+topic: Akteure
+---
+
 # Akteure
 
 Zur Umsetzung des vorliegenden Workflows MÜSSEN Systeme folgende Akteure implementieren (schematische Darstellung - eine technische Detaillierung mit normativer Geltung wird im CapabilityStatement getroffen):
