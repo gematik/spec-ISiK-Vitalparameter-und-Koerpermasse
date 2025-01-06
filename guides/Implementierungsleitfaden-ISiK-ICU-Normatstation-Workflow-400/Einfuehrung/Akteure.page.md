@@ -9,7 +9,7 @@ Interaktionen: READ, SEARCH
 
 
 ## Administrative Data Consumer (bisher: “Client” bzw "Basis-Client") 
-Transaction (O): Find Administrative Data
+Transaction (M): Find Administrative Data
 
 Transaction (O): Patient Merge
 
