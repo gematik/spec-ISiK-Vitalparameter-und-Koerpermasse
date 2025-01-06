@@ -16,7 +16,7 @@ Transaction (O): Patient Merge
 ## VitalSign Standard Source 
 Transaction(M): Find Basic VitalSigns
 
-Profile: Blutdruck, Temp, Puls, O2
+Profile: ISiK Profile Vitalparameter (Blutdruck, Temp, Puls, O2 etc.)
 
 Interaction: READ, SEARCH
 
