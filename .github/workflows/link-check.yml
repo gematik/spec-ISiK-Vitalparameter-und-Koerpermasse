@@ -38,5 +38,6 @@ jobs:
             --exclude-path ImplementationGuide/style
             --exclude-path Material
             --cache
+            --max-concurrency 5
            
       

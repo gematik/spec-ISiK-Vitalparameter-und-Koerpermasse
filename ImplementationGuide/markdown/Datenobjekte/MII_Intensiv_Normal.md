@@ -119,7 +119,7 @@ Alle bestätigungsrelevanten Systeme für dieses Modul MÜSSEN Ressourcen verarb
 - Koerpertemperatur rektal (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-rektal
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-rektal
 - Koerpertemperatur Trommelfell (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-trommelfell
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Trommelfell
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-trommelfell
 
 Weiterhin gelten alle Profile des ISiK Moduls als relevant für die Normalversorgung.
 
