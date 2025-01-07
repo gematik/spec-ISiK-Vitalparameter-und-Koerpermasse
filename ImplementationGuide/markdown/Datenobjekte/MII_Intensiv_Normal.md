@@ -44,7 +44,7 @@ Folgende Profile MÜSSEN durch PDMS implementiert werden und - was als gleichwer
 - Herzzeitvolumen (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/herzzeitvolumen
 - Linksv. Herzindex durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-links-herzindex-indikatorverduennung
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaerer-herzindex-durchiIndikatorverduennung
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaerer-herzindex-durch-indikatorverduennung
 - Linksv. Herzzeitvolumen durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-herzzeitvolumen-durch-indikatorverduennung
 - Zentralvenöser Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck

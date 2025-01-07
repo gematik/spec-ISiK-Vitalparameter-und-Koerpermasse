@@ -27,3 +27,5 @@
 ^https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverhospital
 ^https://simplifier.net/isik-vitalparameter-v4/isikcapabilitystatementvitalparameterserverpdms
 ^https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-lendenwirbelsaeule
+^https://simplifier.net/isik-vitalparameter-v4/Puls
+^https://ig.fhir.de/basisprofile-de/1.2.0/Ressourcen-VerweiseaufExterneLeitfaeden.html#SignaldatenObservation
