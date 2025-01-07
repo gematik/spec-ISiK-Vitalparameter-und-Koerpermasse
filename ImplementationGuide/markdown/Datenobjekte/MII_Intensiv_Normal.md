@@ -24,59 +24,59 @@ Für folgende Profile, die den Festlegungen der MII entstammen, gelten gesondert
 Folgende Profile MÜSSEN durch PDMS implementiert werden und - was als gleichwertig betrachtet wird - durch KIS, die als Dokumentationssystem in der Akutversorgung dienen (aber nicht durch die weiteren bestätigungsrelevanten Systeme):
 
 - Pulmonalarterieller wedge Blutdruck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Pulmonalarterieller-wedge-Blutdruck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/pulmonalarterieller-wedge-blutdruck
 - Sauerstoffsättigung im Blut preduktal durch Pulsoxymetrie (Obs) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Sauerstoffsaettigung-im-Blut-Preduktal-durch-Pulsoxymetrie
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/sauerstoffsaettigung-im-blut-preduktal-durch-pulsoxymetrie
 - Sauerstoffsättigung im Blut postduktal durch Pulsoxymetrie (Obs) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Sauerstoffsaettigung-im-Blut-Postduktal-durch-Pulsoxymetrie
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/sauerstoffsaettigung-im-blut-postduktal-durch-pulsoxymetrie
 - Linksventrikulaeres Schlagvolumenindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumenindex
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaeres-Schlagvolumenindex
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-schlagvolumenindex
 - Linksv. Schlagvolumenindex durch Indikatorverd. (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd  
     -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-schlagvolumenindex
 - Linksv. Schlagvolumen durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaeres-Schlagvolumen-Durch-Indikatorverduennung
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-schlagvolumen-durch-indikatorverduennung
 - Pulmonalvaskulärer Widerstandsindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalvaskulaerer-widerstandsindex
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Pulmonalvaskulaerer-Widerstandsindex
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/pulmonalvaskulaerer-widerstandsindex
 - Systemischer vaskulärer Widerstandsindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-systemischer-vaskulaerer-widerstandsindex
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Systemischer-vaskulaerer-Widerstandsindex
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/systemischer-vaskulaerer-widerstandsindex
 - Linksventrikulärer Herzindex (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-links-herzindex-indikatorverduennung
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaerer-Herzindex
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaerer-herzindex
 - Herzzeitvolumen (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Herzzeitvolumen
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/herzzeitvolumen
 - Linksv. Herzindex durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-links-herzindex-indikatorverduennung
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaerer-Herzindex-Durch-Indikatorverduennung
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaerer-herzindex-durchiIndikatorverduennung
 - Linksv. Herzzeitvolumen durch Indikatorverdünnung (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaeres-Herzzeitvolumen-durch-Indikatorverduennung
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaeres-herzzeitvolumen-durch-indikatorverduennung
 - Zentralvenöser Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Zentralvenoeser-Blutdruck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/zentralvenoeser-blutdruck
 - Linksatrialer Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksatrialer-druck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksatrialer-Druck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksatrialer-druck
 - Rechtsatrialer Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsatrialer-druck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Rechtsatrialer-Druck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/rechtsatrialer-druck
 - Rechtsventrikulärer Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsventrikulaerer-druck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Rechtsventrikulaerer-Druck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/rechtsventrikulaerer-druck
 - Linksventrikulärer Druck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaerer-druck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Linksventrikulaerer-Druck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/linksventrikulaerer-druck
 - Pulmonalarterieller Blutdruck (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Pulmonalarterieller-Blutdruck
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/pulmonalarterieller-blutdruck
 - Koerpertemperatur Brustwirbelsaeule (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brustwirbelsaeule
-    - Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Brustwirbelsaeule
+    - Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-brustwirbelsaeule
 - Koerpertemperatur Lendenwirbelsaeule (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-lendenwirbelsaeule
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Lendenwirbelsaeule
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-lendenwirbelsaeule
 - Koerpertemperatur Halswirbelsaeule (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-halswirbelsaeule
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Halswirbelsaeule
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-halswirbelsaeule
 - Koerpertemperatur Brust (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brust
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Brust
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-brust
 - Koerpertemperatur Myokard (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-myokard
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Myokard
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-myokard
 - Koerpertemperatur Atemwege (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-atemwege
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Atemwege
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-atemwege
 - Koerpertemperatur Blut (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-blut
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Blut
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-blut
 - Koerpertemperatur Nasen-Rachen-Raum (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasen-rachen-raum
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Nasen-Rachen-Raum
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-nasen-rachen-raum
 - Koerpertemperatur Speiseroehre (Observation) - https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-speiseroehre
-    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/Koerpertemperatur-Speiseroehre
+    -  Beispiel: https://simplifier.net/isik-vitalparameter-v4/koerpertemperatur-speiseroehre
 
 ## Normalversorgung - alle bestätigungsrelevanten Systeme 
 
