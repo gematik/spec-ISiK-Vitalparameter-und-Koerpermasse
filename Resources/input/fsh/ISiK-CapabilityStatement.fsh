@@ -85,7 +85,7 @@ Usage: #definition
 * rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/clinical-patient"
 * rest.resource.searchParam[=].type = #reference
 * rest.resource.searchParam[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-* rest.resource.searchParam[=].extension.valueCode = #SHALL
+* rest.resource.searchParam[=].extension.valueCode = #MAY
 * rest.resource.searchParam[=].name = "subject"
 * rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Observation-subject"
 * rest.resource.searchParam[=].type = #reference
