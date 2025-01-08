@@ -9,7 +9,7 @@
   "url": "https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc",
   "experimental": false,
   "publisher": "gematik GmbH",
-  "date": "2024-11-21",
+  "date": "2024-12-04",
   "compose": {
     "include": [
       {
@@ -221,6 +221,14 @@
           },
           {
             "code": "8310-5",
+            "display": "Body temperature"
+          },
+          {
+            "code": "60838-0",
+            "display": "Body temperature"
+          },
+          {
+            "code": "104063-3",
             "display": "Body temperature"
           }
         ]
