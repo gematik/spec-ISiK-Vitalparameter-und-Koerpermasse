@@ -4,3 +4,6 @@
   filename: Akteur-ISiKCapabilityStatementVitalparameterServerHospital.page.md
 - name: 'Akteur: ISiKCapabilityStatementVitalparameterServerPDMS'
   filename: Akteur-ISiKCapabilityStatementVitalparameterServerPDMS.page.md
+- name: 'Akteur: ISiKCapabilityStatementMinimalAdministrativeDataSource'
+  filename: Akteur-ISiKCapabilityStatementMinimalAdministrativeDataSource.page.md
+
