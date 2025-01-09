@@ -1,6 +1,6 @@
 ---
-topic: ISiKCapabilityStatementVitalparameterServerPDMS
-canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalparameterServerPDMS
+topic: ISiKCapabilityStatementVitalSignICUSource
+canonical: https://gematik.de/fhir/isik/CapabilityStatement/ISiKCapabilityStatementVitalSignICUSource
 ---
 ## Konformitätserklärung [(CapabilityStatement)](https://hl7.org/fhir/R4/capabilitystatement.html)
 
